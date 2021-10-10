@@ -1,0 +1,42 @@
+{
+  "name": "Simulator-Project",
+  "tree": {
+    "$className": "DataModel",
+    "ServerScriptService":{
+      "$className": "ServerScriptService",
+      "models":{
+        "$className": "Folder",
+        "$path": "src/ServerScriptService/models"
+      },
+      "controllers":{
+        "$className": "Folder",
+        "$path": "src/ServerScriptService/controllers"
+      },
+      "routers":{
+        "$className": "Folder",
+        "BRE":{
+          "$className": "Folder"
+          
+        },
+        "BRF":{
+          "$className": "Folder"
+          
+        }
+      }
+    },
+    "ReplicatedStorage":{
+      "$className": "ReplicatedStorage",
+      "Shared":{
+        "$className": "Folder",
+        "$path": "src/ReplicatedStorage/Shared"
+      }
+    },
+    "StarterPlayer":{
+      "$className": "StarterPlayer",
+      "StarterPlayerScripts":{
+        "$className": "StarterPlayerScripts",
+        "$path": "src"
+      }
+    }
+  }
+}
