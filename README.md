@@ -1,2 +1,2 @@
 # Simulator-Project
-A Simulator That Im Working on for a friend
+A Simulator That Im Working on for an Aquaintance

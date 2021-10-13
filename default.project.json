@@ -15,8 +15,10 @@
       "routers":{
         "$className": "Folder",
         "BRE":{
-          "$className": "Folder"
-          
+          "$className": "Folder",
+          "route":{
+            "$className": "BindableRemoteEvent"
+          }
         },
         "BRF":{
           "$className": "Folder"
@@ -26,6 +28,9 @@
     },
     "ReplicatedStorage":{
       "$className": "ReplicatedStorage",
+      "reuasbles":{
+        "$className": "Folder"
+      },
       "Shared":{
         "$className": "Folder",
         "$path": "src/ReplicatedStorage/Shared"
@@ -35,7 +40,7 @@
       "$className": "StarterPlayer",
       "StarterPlayerScripts":{
         "$className": "StarterPlayerScripts",
-        "$path": "src"
+        "$path": "src/StarterPlayer"
       }
     }
   }

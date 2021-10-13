@@ -82,10 +82,13 @@ ENV.Methods.sync         = task.synchronize
 ENV.Methods.desync       = task.desynchronize
 
 --ENV.Where
+ENV.Where.assets    = ENV.Service.Replicated.Assets
+ENV.Where.re        = ENV.Service.Replicated.Events.RE
+ENV.Where.rf        = ENV.Service.Replicated.Events.RF
+ENV.Where.classes   = ENV.Service.Server.models.classes
+ENV.Where.library   = ENV.Service.Replicated.library
+ENV.Where.shared    = ENV.Service.Replicated.Shared
 
-
-
---modules
 function LoopModules(Value)
 	local Children = Value:GetChildren()
 	for i =1 ,#Children  do
@@ -99,6 +102,7 @@ function LoopModules(Value)
 	end
 end
 
+--ENV.Modules
 for Name,_Instance in pairs(ENV.Where) do
 	LoopModules(_Instance)
 end
